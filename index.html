@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Surekha | Web Developer Portfolio</title>
+<meta name="description" content="Portfolio of Surekha, a student web developer building accessible, responsive websites with HTML5, CSS3 and JavaScript.">
+<meta name="author" content="Surekha">
+<meta name="theme-color" content="#14213D">
+<link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/style.css">
+<script>document.documentElement.classList.add('js');</script>
+<script src="js/script.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html">Surekha<span class="visually-hidden"> – home page</span></a>
+    <div class="header-controls">
+      <button class="theme-toggle" type="button" aria-pressed="false" aria-label="Switch to dark theme">☾ <span>Dark mode</span></button>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    </div>
+    <nav class="site-nav" id="site-nav" aria-label="Main"><ul><li><a href="index.html" aria-current="page">Home</a></li><li><a href="about.html">About</a></li><li><a href="projects.html">Projects</a></li><li><a href="contact.html">Contact</a></li></ul></nav>
+  </div>
+</header>
+<main id="main" tabindex="-1">
+<div class="container">
+<section class="hero" aria-labelledby="hero-title">
+  <div class="hero-text">
+    <h1 id="hero-title">I build web pages that work for everyone.</h1>
+    <!-- EDIT: replace this introduction with your own words -->
+    <p class="lead">Hi, I'm Surekha, a student who designs and builds full-stack web applications. I care about clear structure, readable design and sites that can be used with a keyboard or a screen reader.</p>
+    <p class="actions"><a class="btn btn-primary" href="projects.html">View my projects</a> <a class="btn btn-secondary" href="contact.html">Contact me</a></p>
+  </div>
+  <figure class="anatomy-wrap">
+    <div class="anatomy" role="img" aria-label="Diagram of this site's page structure: a header containing navigation, a main area containing a section with an article, and a footer.">
+      <div class="a-box a-header" style="--d:.2s"><span>&lt;header&gt;</span><div class="a-box a-nav" style="--d:.5s"><span>&lt;nav&gt;</span></div></div>
+      <div class="a-box a-main" style="--d:.8s"><span>&lt;main&gt;</span><div class="a-box a-section" style="--d:1.1s"><span>&lt;section&gt;</span><div class="a-box a-article" style="--d:1.4s"><span>&lt;article&gt;</span></div></div></div>
+      <div class="a-box a-footer" style="--d:1.7s"><span>&lt;footer&gt;</span></div>
+    </div>
+    <figcaption>Every page on this site is built from these landmarks.</figcaption>
+  </figure>
+</section>
+
+<section class="block" aria-labelledby="objective-title">
+  <h2 id="objective-title">Career objective</h2>
+  <!-- EDIT: write your own objective -->
+  <p>I am looking for an internship where I can apply my front-end and full-stack skills to real products, learn from experienced developers, and help make software more accessible and easier to use.</p>
+</section>
+
+<section class="block" aria-labelledby="skills-title">
+  <h2 id="skills-title">Skills at a glance</h2>
+  <ul class="chips">
+    <li>HTML5</li><li>CSS3</li><li>JavaScript</li><li>Responsive design</li><li>Web accessibility (WCAG)</li><li>Git and GitHub</li>
+  </ul>
+  <p><a href="about.html#skills">See my full technical skills</a></p>
+</section>
+
+<section class="block" aria-labelledby="how-title">
+  <h2 id="how-title">How I build</h2>
+  <div class="three">
+    <article><h3>Semantic first</h3><p>I choose elements for their meaning, so browsers, search engines and assistive technology understand the page.</p></article>
+    <article><h3>Accessible by default</h3><p>Visible focus, clear labels and strong colour contrast are part of the first draft, not a final fix.</p></article>
+    <article><h3>Responsive and calm</h3><p>Layouts adapt from phones to desktops, and motion switches off for people who ask for less of it.</p></article>
+  </div>
+</section>
+</div>
+</main>
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>&copy; <span id="year">2026</span> Surekha. Built with HTML5, CSS3 and vanilla JavaScript.</p>
+    <nav aria-label="Footer"><ul><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="projects.html">Projects</a></li><li><a href="contact.html">Contact</a></li></ul></nav>
+  </div>
+</footer>
+</body>
+</html>
